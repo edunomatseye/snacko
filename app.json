@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "snack",
-    "slug": "snack",
+    "slug": "snacko",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "19564fb2-6f27-4e6d-a8bd-57aaa7c5bf5c"
+      }
+    },
+    "owner": "edunomatseye"
   }
 }
