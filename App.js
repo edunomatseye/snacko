@@ -9,8 +9,8 @@ export default function App() {
       <View style={styles.three}><Text>Fast refresh</Text></View>
       <Image
         style={{
-          width: 51,
-          height: 51,
+          width: 50,
+          height: 50,
           resizeMode: 'contain',
         }}
         source={{
