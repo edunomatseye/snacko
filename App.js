@@ -7,6 +7,7 @@ export default function App() {
       <View style={styles.one}><Text>Open up App.js to start working on your app!</Text></View>
       <View style={styles.two}><Text>Fast refresh is really fast</Text></View>
       <View style={styles.three}><Text>Fast refresh</Text></View>
+      <View style={styles.four}><Text>Altra Fast refresh</Text></View>
       <Image
         style={{
           width: 50,
@@ -40,7 +41,11 @@ const styles = StyleSheet.create({
     backgroundColor: 'yellow'
   },
   three: {
-    flex: 2,
+    flex: 3,
     backgroundColor: 'green'
+  },
+  four: {
+    flext: 4,
+    backgroundColor: 'blue'
   }
 });
